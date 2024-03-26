@@ -1,0 +1,58 @@
+.navbar-container {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    color: var(--light_shades); 
+    z-index: 1000; 
+    background-color: transparent;
+    transition: background-color 300ms;
+  }
+  
+  .navbar-container img {
+    width: auto; 
+    height: 45px; 
+    cursor: pointer;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+    padding: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: var(--light_shades); /* Link metin rengi */
+    transition: color 0.3s ease; /* Renk geçişi efekti */
+    font-weight: 650;
+    padding: 10px;
+  }
+  
+  .links a:hover {
+    color: var(--light_accent); /* Link üzerine gelindiğinde renk */
+    cursor: pointer;
+  }
+  
+  .links a:active {
+    color: var(--light_accent); /* Link tıklandığında renk */
+  }
+
+  .scrolled {
+    background-color: var(--dark_shades); 
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .navbar-container{
+      display: none;
+    }
+  }

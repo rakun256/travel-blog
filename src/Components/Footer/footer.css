@@ -1,0 +1,7 @@
+.footer-container{
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    color: var(--light_accent);
+    text-align: center;
+}

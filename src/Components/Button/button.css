@@ -1,0 +1,16 @@
+.button {
+    background-color: transparent;
+    color: var(--light_shades);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 300ms;
+    max-width: max-content;
+    background-color: var(--dark_accent);
+    font-size: 12px;
+  }
+  
+  .button:hover {
+    background-color: var(--dark_shades);
+    color: #f4f3f2;
+  }
