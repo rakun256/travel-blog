@@ -1,5 +1,4 @@
 .button {
-    background-color: transparent;
     color: var(--light_shades);
     padding: 10px 20px;
     border-radius: 10px;
@@ -12,5 +11,4 @@
   
   .button:hover {
     background-color: var(--dark_shades);
-    color: #f4f3f2;
   }

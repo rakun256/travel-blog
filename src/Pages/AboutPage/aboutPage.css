@@ -1,0 +1,37 @@
+.about-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--light_shades);
+    margin-top: 60px;
+    
+    height: 100vh;
+}
+
+.about-description{
+    width: 50%;
+    color: var(--light_accent);
+    margin-bottom: 25px;
+}
+
+.about-title{
+    margin: 0;
+    margin-top: 50px;
+}
+
+.about-logo{
+    margin-top: 100px;
+}
+
+.about-page-def{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.about-page-def img{
+    width: 400px;
+    height: auto;
+}

@@ -6,8 +6,6 @@ const LastPosts = () => {
   return (
     <div className='card-container'>
         <Card />
-        <Card />
-        <Card />
     </div>
   )
 }

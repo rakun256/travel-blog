@@ -4,7 +4,7 @@ import "./button.css";
 const ButtonCustom = ({ title }) => {
     return (
         <div className="button">
-            <div className="title"> {title}</div>
+            <div className="button-title"> {title}</div>
         </div>
     );
 };

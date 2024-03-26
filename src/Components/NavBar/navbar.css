@@ -33,7 +33,7 @@
   .links a {
     text-decoration: none;
     color: var(--light_shades); /* Link metin rengi */
-    transition: color 0.3s ease; /* Renk geçişi efekti */
+    transition: color 0.2s ease; /* Renk geçişi efekti */
     font-weight: 650;
     padding: 10px;
   }

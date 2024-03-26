@@ -1,29 +1,40 @@
 import React from "react";
-import './card.css'
+import BlogService from "../../Services/blogService"; // Servis import ediliyor
 import ButtonCustom from "../Button/button";
+import { Link } from "react-router-dom";
+import './card.css'; // Stil dosyası
 
-const Card = () => {
+const Card = ({ post }) => {
   return (
-    <div class="card card-blog fill-light">
-      <div class="card-image">
+    <div className="card card-blog fill-light">
+      <div className="card-image">
         <img
-          class="img"
-          src="https://source.unsplash.com/collection/582860/660x440"
+          className="img"
+          src={post.photoUrl}
           alt="."
         />
       </div>
 
-      <div class="content">
-        <h6 class="card-content-title">Cards</h6>
-        <p class="card-content-description">
-          Cards are a part of the material design guidelines, but beyond that
-          they're easy to use and look great on desktop and mobile.
-        </p>
-        <ButtonCustom title={"Read More"}/>
+      <div className="content">
+        <h6 className="card-content-title">{post.title}</h6>
+        <p className="card-content-description">{post.subtitle}</p>
+        <Link className="button-link" to="/blog">
+          <ButtonCustom title={"Read More"} />
+        </Link>
       </div>
-      
     </div>
   );
 };
 
-export default Card;
+const Blog = () => {
+  const posts = BlogService.getPosts();
+  return (
+    <div className="cards-container">
+      {posts.map((post) => (
+        <Card key={post.id} post={post} />
+      ))}
+    </div>
+  );
+};
+
+export default Blog;
