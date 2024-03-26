@@ -27,7 +27,8 @@ const Card = ({ post }) => {
 };
 
 const Blog = () => {
-  const posts = BlogService.getPosts();
+  const posts = BlogService.getPosts().sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 3);
+
   return (
     <div className="cards-container">
       {posts.map((post) => (
@@ -38,3 +39,6 @@ const Blog = () => {
 };
 
 export default Blog;
+
+
+

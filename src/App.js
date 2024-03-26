@@ -5,6 +5,7 @@ import Navbar from './Components/NavBar/navbar';
 import MainPage from './Pages/MainPage/mainPage';
 import AboutPage from './Pages/AboutPage/aboutPage';
 import {Routes, Route, BrowserRouter } from 'react-router-dom';
+import BlogMainPage from './Pages/BlogMainPage/blogMainPage';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Routes>
         <Route path="/" exact element={<MainPage/>} />
         <Route path="/about" element={<AboutPage/>} />
-        <Route path="/contact" />
+        <Route path="/blog" element={<BlogMainPage/>} />
         </Routes>
         
       </div>

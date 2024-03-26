@@ -30,6 +30,26 @@ const BlogService = {
               "Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo ",
             photoUrl: "https://source.unsplash.com/collection/582860/660x440",
           },
+
+          {
+            id: 4,
+            date: "March 26, 2024",
+            title: "Küçük adam büyük adım",
+            subtitle: "Tayyip",
+            content:
+              "Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo ",
+            photoUrl: "https://source.unsplash.com/collection/582860/660x440",
+          },
+
+          {
+            id: 5,
+            date: "February 21, 2024",
+            title: "Verdiği güven şaka mı",
+            subtitle: "hakan fıdan",
+            content:
+              "Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo Süratkargo ",
+            photoUrl: "https://source.unsplash.com/collection/582860/660x440",
+          },
       ];
     },
   };
