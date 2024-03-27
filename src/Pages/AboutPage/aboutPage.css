@@ -35,3 +35,25 @@
     width: 400px;
     height: auto;
 }
+
+@media only screen and (max-width: 768px){
+    .about-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-page-container{
+    margin-top: 100px;
+    text-align: center;
+    }
+
+    .about-page-def img{
+        display: none;
+    }
+
+    .about-description{
+        width: auto;
+    }
+}

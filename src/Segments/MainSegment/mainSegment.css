@@ -33,3 +33,15 @@
     font-size: 16px;
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 768px){
+    .main-segment-text h1{
+        font-size: 45px;
+    }
+
+    .main-segment-text{
+        margin: 0;
+        padding: 25px;
+        margin-bottom: 25%;
+    }
+}

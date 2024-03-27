@@ -94,3 +94,16 @@
   .blog-card-main-container p{
     padding: 50px;
   }
+
+  @media only screen and (max-width:768px){
+    .blog-card-main-container p{
+      display: none;
+    }
+
+    .blog-card-content{
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      text-align: center;
+    }
+  }
