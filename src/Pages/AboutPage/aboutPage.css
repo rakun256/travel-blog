@@ -5,7 +5,6 @@
     align-items: center;
     color: var(--light_shades);
     margin-top: 60px;
-    
     height: 100vh;
 }
 
@@ -17,16 +16,10 @@
 
 .about-title{
     margin: 0;
-    margin-top: 50px;
 }
 
-.about-logo{
-    margin-top: 200px;
-}
-
-.about-logo img{
-    width: 500px;
-    height: auto;
+.about-title h1{
+    font-size: 40px;
 }
 
 .about-page-def{
@@ -34,10 +27,11 @@
     padding: 25px;
     justify-content: center;
     gap: 50px;
+    align-items: center;
 }
 
 .about-page-def img{
-    width: 300px;
+    width: 350px;
     height: auto;
 }
 
