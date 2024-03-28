@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <div className="about-page-container">
       <Helmet>
-      <title>About Page - Adventurista</title>
+      <title>About Page - Avventuriosa</title>
         <meta name="description" content="Welcome, adventurers! We are Adventurista, a group of mathematics
           engineering students who have embarked on journeys to explore the
           world. We have a passion for discovering the captivating beauty of
@@ -27,7 +27,7 @@ const AboutPage = () => {
           world together?" />
       </Helmet>
         <div className="about-logo">
-            <img alt="." src="/Images/adv_logo.png"></img>
+            <img alt="." src="/Images/adv_logo2.png"></img>
         </div>
       <div className="about-title">
         <h1>What is Adventurista?</h1>

@@ -21,7 +21,12 @@
 }
 
 .about-logo{
-    margin-top: 100px;
+    margin-top: 200px;
+}
+
+.about-logo img{
+    width: 500px;
+    height: auto;
 }
 
 .about-page-def{
@@ -32,7 +37,7 @@
 }
 
 .about-page-def img{
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 

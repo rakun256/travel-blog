@@ -17,7 +17,7 @@ const MobileNavbar = () => {
     <nav className="mobile-navbar">
       <div className="mobile-navbar-container">
         <div className="mobile-navbar-logo">
-          <img alt="logo" src="/Images/adv_logo.png" />
+          <img alt="logo" src="/Images/adv_logo2.png" />
         </div>
         <Overlay isOpen={isOpen} toggleMenu={toggleMenu} />
         <div className={`mobile-navbar-menu ${isOpen ? "active" : ""}`}>
