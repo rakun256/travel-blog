@@ -35,9 +35,6 @@
     margin-bottom: 0;
 }
 
-.main-segment-paragraph{
-    width: 600px;
-}
 
 @media only screen and (max-width: 768px){
     .main-segment-text h1{
