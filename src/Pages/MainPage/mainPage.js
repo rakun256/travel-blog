@@ -9,14 +9,14 @@ const MainPage = () => {
   return (
     <div className='main-page-cover'>
       <Helmet>
-      <title>Main - Avventuriosa</title>
-        <meta name="description" content="Welcome, adventurers! We are Avventuriosa, a group of mathematics
+      <title>Main - Adventurista</title>
+        <meta name="description" content="Welcome, adventurers! We are Adventurista, a group of mathematics
           engineering students who have embarked on journeys to explore the
           world. We have a passion for discovering the captivating beauty of
           nature, the profound traces of history, and the richness of cultures.
           Every moment we open the door to a new adventure, we feel the
           excitement in our hearts, and we're here to share that excitement with
-          you. Avventuriosa was founded with the aim of sharing our adventures
+          you. Adventurista was founded with the aim of sharing our adventures
           that take us to unique destinations around the globe. Here you can
           find our experiences, inspiring stories, and practical tips gathered
           during our travels. Our articles serve as guides for travel
@@ -25,7 +25,7 @@ const MainPage = () => {
           also the significance of building bridges between people and engaging
           in cultural exchange. Because we believe that traveling not only
           allows us to see new places but also brings us closer together as
-          global citizens. Welcome to Avventuriosa. Are you ready to explore the
+          global citizens. Welcome to Adventurista. Are you ready to explore the
           world together?" />
       </Helmet>
         <MainSegment />
